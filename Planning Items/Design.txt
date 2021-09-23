@@ -1,0 +1,17 @@
+Useful color page: https://pypi.org/project/termcolor/
+
+
+
+DICTIONARY(
+    KEYS
+    VALUES
+)
+
+For town in qtownlist:
+Assign a random set of items it sells
+
+Upon interaction:
+WHILE TRUE:
+    if 
+1234567890-=qwertyuiop[]\asdfghjkl;'zxcvbnm,./
+¡™£¢∞§¶•ªªº–≠åß∂ƒ©˙∆˚¬…æœ∑´®†¥¨ˆøπ“‘«≈ç√∫˜µ≤≥÷⁄€‹›ﬁﬂ‡°·‚—±Œ„´‰ˇÁ¨¨Ø∏”’»ÍÎ˝ÓÔ  ÒÚÆ¸˛Ç◊ı˜Â¯˘¿
