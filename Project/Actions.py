@@ -28,8 +28,8 @@ def Walk(x,y):
     rand = 0
     player = Characters(20,0,10,10,10,[])
     moText = ["This a a mountain","This is a tall mountain","There is a coin on the ground"]
-    GiveCoin=Effect(player,player.gold,100)
-    CoinBag=Item("Coin Bag",10,"x",5)
+    GiveCoin=Effect(player,"gold",100)
+    CoinBag=Item("Coin Bag",10,GiveCoin,5)
     ItemsDict=dict([("coin bag",CoinBag)])
     for m in range(ysize):
         temp=[]
@@ -106,12 +106,15 @@ def Walk(x,y):
                 inBoat = True
         if dir == "u":
             item=input()
-            if item in ItemsDict:
+            if item == "list":
+                print(ItemsDict)
+            elif item in ItemsDict:
                 print("*")
                 if ItemsDict[item].quantity>0:
                     ef=ItemsDict[item]
                     ItemsDict[item].quantity-=1
                     print(ItemsDict[item].quantity)
+                    player[ItemsDict[item].effect.modify]+=ItemsDict[item].effect.amount
             else:
                 print("--")
             time.sleep(1)
